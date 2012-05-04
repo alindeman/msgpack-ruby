@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 require 'msgpack/version'
 
 Gem::Specification.new do |s|
-  s.name = "msgpack"
+  s.name = "msgpack-ruby"
   s.version = MessagePack::VERSION
   s.summary = "MessagePack, a binary-based efficient data interchange format."
-  s.description = %q{MessagePack is a binary-based efficient object serialization library. It enables to exchange structured objects between many languages like JSON. But unlike JSON, it is very fast and small.}
+  s.description = %q{This gem is a prerelease of the official version ("msgpack"). If that gem ever releases 0.5.0, it should be used instead of this one.}
   s.author = "FURUHASHI Sadayuki"
   s.email = "frsyuki@users.sourceforge.jp"
   s.homepage = "http://msgpack.org/"
